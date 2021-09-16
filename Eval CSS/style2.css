@@ -1,0 +1,113 @@
+ul {
+    padding : 1em 3em;
+    border : 1px solid black;
+    border : 1px solid black(165, 165, 165);
+    background-color: black;
+    margin: 0,;
+    height: 20px;
+   }
+
+li,a {
+    color: white; 
+    display: inline;
+    font-size: 14;
+    text-decoration: underline;
+    }
+
+.block {
+    display: block;
+    margin: 0em;
+    }
+
+#message {
+     display: inline;
+     margin-left: 700px;
+     font-size: 2rem;
+    }
+
+#image { width: 200px
+    
+    }
+
+#section {
+    font-size: 40px;
+    }
+
+article {
+    display: flex;
+    width: 100%;
+    }
+
+#droite {
+        width:350px;
+        height:auto;
+        background:rgb(212, 207, 207); 
+    }
+
+#gauche {
+        float:left;
+        width:80%;
+    }
+
+
+html { 
+    font-size: 100%; 
+    }
+
+body { 
+    font-size: 1em;
+    }
+
+@media only screen and (max-width: 576px) {
+    html { 
+        font-size: 70%; 
+    }
+    }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    html { 
+        font-size: 80%; 
+    }
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    html { 
+        font-size: 100%; 
+    }
+    }
+
+@media only screen and (min-width: 992px) and (max-width: 1200) {
+    html { 
+        font-size: 150%; 
+    }
+    }
+
+@media only screen and (min-width: 1200px) {
+    html { 
+        font-size: 200%; 
+    }
+    }
+
+
+@media only screen and (max-width: 768px) {
+   
+    #droite { 
+        display: none;
+    }
+    }
+
+
+@media only screen and (max-width: 768px) {
+    a {
+        display: block;
+    }
+    }
+
+img 
+    {
+     max-width: 100%;
+     height: auto;
+    }
+
+
+
