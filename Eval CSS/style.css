@@ -58,38 +58,33 @@ body {
     font-size: 1em;
     }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 300px) {
     html { 
         font-size: 70%; 
     }
     }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 500px) {
     html { 
         font-size: 80%; 
     }
     }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 700px)  {
     html { 
         font-size: 100%; 
     }
     }
 
-@media only screen and (min-width: 992px) and (max-width: 1200) {
+@media only screen and (min-width:1200px {
     html { 
         font-size: 150%; 
     }
     }
 
-@media only screen and (min-width: 1200px) {
-    html { 
-        font-size: 200%; 
-    }
-    }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1026px) {
    
     #droite { 
         display: none;
@@ -97,16 +92,14 @@ body {
     }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1026px) {
     a {
         display: block;
     }
     }
 
-img 
-    {
-     max-width: 100%;
-     height: auto;
+    img {
+        width: 10%;
     }
 
 
